@@ -1,0 +1,18 @@
+{
+  "name": "sp-lead-generator",
+  "version": "1.0.0",
+  "description": "Gerador de leads para empresas em São Paulo com necessidade de registro de marcas e patentes",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:json": "node src/index.js --format json"
+  },
+  "dependencies": {
+    "apify-client": "^2.9.3",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
